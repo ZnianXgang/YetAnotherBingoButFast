@@ -1,0 +1,253 @@
+{
+    "items": [
+        {
+            "id": "minecraft:leather_helmet",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:enchantments": {
+                    "minecraft:aqua_affinity": 1,
+                    "minecraft:protection": 3,
+                    "minecraft:respiration": 1
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:phantom_membrane",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:damage": 0,
+                "minecraft:enchantments": {
+                    "minecraft:protection": 3
+                },
+                "minecraft:equippable": {
+                    "asset_id": "minecraft:elytra",
+                    "damage_on_hurt": false,
+                    "equip_sound": "minecraft:item.armor.equip_elytra",
+                    "slot": "chest"
+                },
+                "minecraft:glider": {},
+                "minecraft:item_model": "minecraft:elytra",
+                "minecraft:item_name": {
+                    "translate": "item.minecraft.elytra"
+                },
+                "minecraft:max_damage": 432,
+                "minecraft:max_stack_size": 1,
+                "minecraft:rarity": "epic",
+                "minecraft:repairable": {
+                    "items": "minecraft:phantom_membrane"
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:leather_leggings",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:enchantments": {
+                    "minecraft:protection": 3
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:leather_boots",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:enchantments": {
+                    "minecraft:depth_strider": 3,
+                    "minecraft:feather_falling": 3,
+                    "minecraft:protection": 3
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:netherite_sword",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:enchantments": {
+                    "minecraft:looting": 2,
+                    "minecraft:sharpness": 3
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:netherite_pickaxe",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:enchantments": {
+                    "minecraft:efficiency": 4
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:netherite_axe",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:enchantments": {
+                    "minecraft:efficiency": 4
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:netherite_shovel",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:enchantments": {
+                    "minecraft:efficiency": 4
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:diamond_hoe",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:damage_resistant": {
+                    "types": "#minecraft:is_fire"
+                },
+                "minecraft:enchantable": {
+                    "value": 15
+                },
+                "minecraft:enchantments": {
+                    "minecraft:efficiency": 4
+                },
+                "minecraft:item_model": "minecraft:netherite_hoe",
+                "minecraft:item_name": {
+                    "translate": "item.minecraft.netherite_hoe"
+                },
+                "minecraft:max_damage": 2031,
+                "minecraft:repairable": {
+                    "items": "#minecraft:netherite_tool_materials"
+                },
+                "minecraft:tool": {
+                    "rules": [
+                        {
+                            "blocks": "#minecraft:incorrect_for_netherite_tool",
+                            "correct_for_drops": false
+                        },
+                        {
+                            "blocks": "#minecraft:mineable/hoe",
+                            "correct_for_drops": true,
+                            "speed": 9
+                        }
+                    ]
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        },
+        {
+            "id": "minecraft:firework_rocket",
+            "count": 2,
+            "components": {}
+        },
+        {
+            "id": "minecraft:golden_pickaxe",
+            "count": 1,
+            "components": {
+                "minecraft:custom_data": {
+                    "bingo_keep": true,
+                    "bingo_vanish": true
+                },
+                "minecraft:enchantments": {
+                    "minecraft:efficiency": 4,
+                    "minecraft:silk_touch": 1
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:unbreakable"
+                    ]
+                },
+                "minecraft:unbreakable": {}
+            }
+        }
+    ]
+}

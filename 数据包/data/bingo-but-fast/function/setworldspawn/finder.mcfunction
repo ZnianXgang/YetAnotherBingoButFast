@@ -1,0 +1,3 @@
+execute in minecraft:overworld positioned 0 319 0 as @n[type=minecraft:marker] at @s if block ~ ~ ~ #minecraft:air run tp @s ~ ~-1 ~
+execute in minecraft:overworld positioned 0 319 0 as @n[type=minecraft:marker] at @s if block ~ ~ ~ #minecraft:air run function bingo-but-fast:setworldspawn/finder
+execute in minecraft:overworld positioned 0 319 0 as @n[type=minecraft:marker] at @s unless block ~ ~ ~ #minecraft:air run function bingo-but-fast:setworldspawn/stop

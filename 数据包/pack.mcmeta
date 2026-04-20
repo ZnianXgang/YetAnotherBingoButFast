@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "A partial recreation of Bingo But Fast.",
+        "min_format": 94,
+        "max_format": 94
+    }
+}

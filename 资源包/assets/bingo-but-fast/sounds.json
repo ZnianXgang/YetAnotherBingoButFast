@@ -1,0 +1,34 @@
+{
+    "game_intro": {
+        "sounds": [
+            {
+                "name": "bingo-but-fast:game_intro",
+                "stream": true
+            }
+        ]
+    },
+    "music": {
+        "sounds": [
+            {
+                "name": "bingo-but-fast:music",
+                "stream": true
+            }
+        ]
+    },
+    "overtime_intro": {
+        "sounds": [
+            {
+                "name": "bingo-but-fast:overtime_intro",
+                "stream": true
+            }
+        ]
+    },
+    "overtime_loop": {
+        "sounds": [
+            {
+                "name": "bingo-but-fast:overtime_loop",
+                "stream": true
+            }
+        ]
+    }
+}
