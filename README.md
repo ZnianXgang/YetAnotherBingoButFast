@@ -6,6 +6,6 @@
 
 ## 额外需要的模组（不包含模组的前置模组）
 
-- [Modify Player Data](https://modrinth.com/mod/modify-player-data)：因为原版限制，无法直接编辑玩家的 `foodLevel`；安装此模组实现锁定玩家的 `foodLevel` 为 `19`。
+- [Modify Player Data](https://modrinth.com/mod/modify-player-data)：因为原版限制，无法直接编辑玩家的 `foodLevel`；安装此模组实现锁定玩家的 `foodLevel` 为 `19`。如不需要可自主删除 `lock_food_level.mcfunction` 及相关内容。
 
 - [Veinminer](https://modrinth.com/datapack/veinminer)：实现连锁砍树。配置文件详见“额外模组”（使用时直接将 `config` 文件夹复制至服务器根目录）。
