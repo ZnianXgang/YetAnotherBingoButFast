@@ -14,7 +14,7 @@
 
 ### 额外需要修改的选项
 
-- `./config/yet-another-minecraft-bingo/config.json`：其中的 `countdownDelayTicks` **必须**修改为 `140`；`syncStats` **推荐**设置为 `false`；其余按需修改。
+- `./config/yet-another-minecraft-bingo/config.json`：其中的 `countdownDelayTicks` **必须**修改为 `140`，`isLobbyMode` **必须**修改为 `true`；`syncStats` **推荐**设置为 `false`；其余按需修改。
 
 ## English (Translated using AI)
 
@@ -30,4 +30,4 @@ Current versions used: Minecraft 1.21.11 & Yet Another Bingo 2.9.7
 
 ### Additional options to modify
 
-- `./config/yet-another-minecraft-bingo/config.json`: The `countdownDelayTicks` **must** be changed to `140`; `syncStats` is **recommended** to be set to `false`; modify other options as needed.
+- `./config/yet-another-minecraft-bingo/config.json`: The `countdownDelayTicks` **must** be changed to `140`, `isLobbyMode` **must** be changed to `true`; `syncStats` is **recommended** to be set to `false`; modify other options as needed.
