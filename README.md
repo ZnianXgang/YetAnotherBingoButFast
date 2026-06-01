@@ -4,7 +4,7 @@
 
 一个主要使用 [Yet Another Bingo](https://modrinth.com/mod/yet-another-minecraft-bingo) 模组部分还原 [Bingo but Fast](https://mcchampionship.fandom.com/wiki/Bingo_but_Fast) 的数据包。
 
-当前使用的版本：Minecraft 1.21.11 & Yet Another Bingo 2.9.7
+当前使用的版本：Minecraft 26.1.x & Yet Another Bingo 2.10.0
 
 ### 额外需要的模组
 
@@ -20,7 +20,7 @@
 
 A data pack that partially recreates [Bingo but Fast](https://mcchampionship.fandom.com/wiki/Bingo_but_Fast) using primarily the [Yet Another Bingo](https://modrinth.com/mod/yet-another-minecraft-bingo) mod.
 
-Current versions used: Minecraft 1.21.11 & Yet Another Bingo 2.9.7
+Current versions used: Minecraft 26.1.x & Yet Another Bingo 2.10.0
 
 ### Additional mods required
 
