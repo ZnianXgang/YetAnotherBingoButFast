@@ -1,0 +1,1 @@
+scoreboard players reset #i can_change_dimension
