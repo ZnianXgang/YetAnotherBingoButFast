@@ -1,6 +1,3 @@
-# 停止music
-schedule function bingo-but-fast:sound/stop_music 2s
-
 # 播放
 execute as @a at @s \
     run playsound bingo-but-fast:overtime_intro record @s

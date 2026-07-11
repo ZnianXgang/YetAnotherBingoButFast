@@ -7,14 +7,6 @@
             }
         ]
     },
-    "music": {
-        "sounds": [
-            {
-                "name": "bingo-but-fast:music",
-                "stream": true
-            }
-        ]
-    },
     "overtime_intro": {
         "sounds": [
             {
