@@ -3,6 +3,7 @@ difficulty peaceful
 
 # 修改游戏规则
 gamerule minecraft:advance_weather false
+gamerule minecraft:allow_entering_nether_using_portals false
 gamerule minecraft:elytra_movement_check false
 gamerule minecraft:fall_damage false
 gamerule minecraft:fire_damage false
