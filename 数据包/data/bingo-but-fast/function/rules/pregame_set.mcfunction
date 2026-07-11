@@ -11,6 +11,3 @@ gamerule minecraft:locator_bar false
 gamerule minecraft:player_movement_check false
 gamerule minecraft:players_sleeping_percentage 200
 gamerule minecraft:random_tick_speed 0
-
-# 设置世界边界
-execute in minecraft:overworld run worldborder set 1

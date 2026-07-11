@@ -2,9 +2,9 @@
 
 ## 简体中文
 
-一个主要使用 [Yet Another Bingo](https://modrinth.com/mod/yet-another-minecraft-bingo) 模组部分还原 [Bingo but Fast](https://mcchampionship.fandom.com/wiki/Bingo_but_Fast) 的数据包。
+一个主要使用 [Yet Another Bingo](https://modrinth.com/mod/yet-another-minecraft-bingo) 模组部分还原[缤果竞速](https://mcchampionship.fandom.com/wiki/Bingo_but_Fast)与[多界缤果](https://www.mutmc.live/game/djbg/)的数据包。
 
-当前使用的版本：Minecraft 26.1.x & Yet Another Bingo 2.10.0
+当前使用的版本：Minecraft 26.2 & Yet Another Bingo 2.12.0
 
 ### 额外需要的模组
 
@@ -18,9 +18,9 @@
 
 ## English (Translated using AI)
 
-A data pack that partially recreates [Bingo but Fast](https://mcchampionship.fandom.com/wiki/Bingo_but_Fast) using primarily the [Yet Another Bingo](https://modrinth.com/mod/yet-another-minecraft-bingo) mod.
+A data pack that partially recreates [Bingo but Fast](https://mcchampionship.fandom.com/wiki/Bingo_but_Fast) and [Multi-dimensional Bingo](https://www.mutmc.live/game/djbg/) using primarily the [Yet Another Bingo](https://modrinth.com/mod/yet-another-minecraft-bingo) mod.
 
-Current versions used: Minecraft 26.1.x & Yet Another Bingo 2.10.0
+Current versions used: Minecraft 26.2 & Yet Another Bingo 2.12.0
 
 ### Additional mods required
 

@@ -1,1 +1,0 @@
-scoreboard players set #i status 1
