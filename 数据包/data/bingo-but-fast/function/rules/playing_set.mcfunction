@@ -7,5 +7,8 @@ gamerule minecraft:fire_damage true
 gamerule minecraft:freeze_damage true
 gamerule minecraft:random_tick_speed 3
 
-# 恢复主世界边界
+# 恢复世界边界
 execute in minecraft:overworld run worldborder set 59999968
+execute in minecraft:the_nether run worldborder set 59999968
+execute in minecraft:the_end run worldborder center 0.0 0.0
+execute in minecraft:the_end run worldborder set 59999968

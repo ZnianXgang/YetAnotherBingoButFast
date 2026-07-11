@@ -12,5 +12,8 @@ gamerule minecraft:player_movement_check false
 gamerule minecraft:players_sleeping_percentage 200
 gamerule minecraft:random_tick_speed 0
 
-# 设置主世界边界
+# 设置世界边界
 execute in minecraft:overworld run worldborder set 1
+execute in minecraft:the_nether run worldborder set 1
+execute in minecraft:the_end run worldborder center 100.0 0.0
+execute in minecraft:the_end run worldborder set 1
