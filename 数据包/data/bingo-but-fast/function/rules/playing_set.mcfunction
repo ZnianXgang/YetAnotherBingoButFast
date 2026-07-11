@@ -6,3 +6,6 @@ gamerule minecraft:fall_damage true
 gamerule minecraft:fire_damage true
 gamerule minecraft:freeze_damage true
 gamerule minecraft:random_tick_speed 3
+
+# 恢复主世界边界
+execute in minecraft:overworld run worldborder set 59999968
