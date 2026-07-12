@@ -17,10 +17,7 @@
 
 ### 修改初始维度
 
-数据包默认以主世界为初始维度，若需要更改下界或末地（以原版黑曜石平台为出生点）为初始维度，除了在大厅菜单中设置以外，还需要手动输入以下的命令：
-
-- 下界：`execute in minecraft:the_nether run setworldspawn 0 69 0 0 0`
-- 末地：`execute in minecraft:the_end run setworldspawn 100 49 0 0 0`
+数据包默认以主世界为初始维度，若需要更改其他维度为初始维度，请自行修改数据包。
 
 ## English (Translated using AI)
 
@@ -39,7 +36,4 @@ Current versions used: Minecraft 26.2 & Yet Another Bingo 2.12.1
 
 ### Modifying the Initial Dimension
 
-By default, the data pack uses the Overworld as the initial dimension. If you need to change the initial dimension to the Nether or the End (use the vanilla obsidian platform as the spawn point), in addition to setting it in the lobby menu, you also need to manually enter the following commands:
-
-- For the Nether: `execute in minecraft:the_nether run setworldspawn 0 69 0 0 0`
-- For the End: `execute in minecraft:the_end run setworldspawn 100 49 0 0 0`
+By default, the data pack uses the Overworld as the initial dimension. If you need to change the initial dimension to other dimensions, please modify the data pack by your own.

@@ -1,7 +1,7 @@
 {
-    "description.change_dimensions": "切换维度在游戏开始后2分钟时开放，但到8分钟时关闭。",
+    "description.switch_dimensions": "切换维度在游戏开始后2分钟时开放，但到8分钟时关闭。你始终能前往你所在维度的出生点。",
     "dimension.overworld": "主世界",
     "dimension.the_end": "末地",
     "dimension.the_nether": "下界",
-    "title.change_dimensions": "切换维度"
+    "title.switch_dimensions": "切换维度/前往出生点"
 }

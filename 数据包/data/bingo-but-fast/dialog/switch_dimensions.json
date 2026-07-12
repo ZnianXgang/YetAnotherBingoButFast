@@ -1,15 +1,15 @@
 {
     "type": "minecraft:multi_action",
     "title": {
-        "translate": "title.change_dimensions",
-        "fallback": "Change Dimensions"
+        "translate": "title.switch_dimensions",
+        "fallback": "Switch Dimensions / Go to Spawn"
     },
     "columns": 3,
     "body": {
         "type": "minecraft:plain_message",
         "contents": {
-            "translate": "description.change_dimensions",
-            "fallback": "Changing dimensions is available at the 2-minute mark, but becomes unavailable at the 8-minute mark."
+            "translate": "description.switch_dimensions",
+            "fallback": "Dimensions switching is available at the 2-minute mark, but becomes unavailable at the 8-minute mark. You can always go to spawn in your dimension."
         }
     },
     "actions": [
@@ -26,7 +26,7 @@
             "width": 75,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger change_dimensions set 1000"
+                "command": "trigger switch_dimensions set 1000"
             }
         },
         {
@@ -42,7 +42,7 @@
             "width": 75,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger change_dimensions set 1001"
+                "command": "trigger switch_dimensions set 1001"
             }
         },
         {
@@ -58,7 +58,7 @@
             "width": 75,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger change_dimensions set 1002"
+                "command": "trigger switch_dimensions set 1002"
             }
         }
     ],
