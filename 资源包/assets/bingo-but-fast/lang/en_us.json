@@ -1,0 +1,8 @@
+{
+    "tip.switch_dimensions": "Dimension switching will open 2 minutes after the game starts and will last for 6 minutes.",
+    "tip.press_quick_actions_key": "You can open \"Switch Dimensions\" menu by pressing [%s] key.",
+    "dimension.overworld": "Overworld",
+    "dimension.the_end": "The End",
+    "dimension.the_nether": "The Nether",
+    "title.switch_dimensions": "Switch Dimensions"
+}

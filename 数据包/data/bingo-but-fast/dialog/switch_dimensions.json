@@ -1,17 +1,9 @@
 {
     "type": "minecraft:multi_action",
     "title": {
-        "translate": "title.switch_dimensions",
-        "fallback": "Switch Dimensions / Go to Spawn"
+        "translate": "title.switch_dimensions"
     },
-    "columns": 3,
-    "body": {
-        "type": "minecraft:plain_message",
-        "contents": {
-            "translate": "description.switch_dimensions",
-            "fallback": "Dimensions switching is available at the 2-minute mark, but becomes unavailable at the 8-minute mark. You can always go to spawn in your dimension."
-        }
-    },
+    "columns": 1,
     "actions": [
         {
             "label": [
@@ -19,11 +11,9 @@
                     "sprite": "minecraft:block/grass_block_side"
                 },
                 {
-                    "translate": "dimension.overworld",
-                    "fallback": "Overworld"
+                    "translate": "dimension.overworld"
                 }
             ],
-            "width": 75,
             "action": {
                 "type": "minecraft:run_command",
                 "command": "trigger switch_dimensions set 1000"
@@ -35,11 +25,9 @@
                     "sprite": "minecraft:block/netherrack"
                 },
                 {
-                    "translate": "dimension.the_nether",
-                    "fallback": "The Nether"
+                    "translate": "dimension.the_nether"
                 }
             ],
-            "width": 75,
             "action": {
                 "type": "minecraft:run_command",
                 "command": "trigger switch_dimensions set 1001"
@@ -51,11 +39,9 @@
                     "sprite": "minecraft:block/end_stone"
                 },
                 {
-                    "translate": "dimension.the_end",
-                    "fallback": "The End"
+                    "translate": "dimension.the_end"
                 }
             ],
-            "width": 75,
             "action": {
                 "type": "minecraft:run_command",
                 "command": "trigger switch_dimensions set 1002"
