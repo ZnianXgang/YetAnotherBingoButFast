@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "translate": "title.change_dimensions",
+        "fallback": "Change Dimensions"
+    },
+    "columns": 3,
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": {
+            "translate": "description.change_dimensions",
+            "fallback": "Changing dimensions is available at the 2-minute mark, but becomes unavailable at the 8-minute mark."
+        }
+    },
+    "actions": [
+        {
+            "label": [
+                {
+                    "sprite": "minecraft:block/grass_block_side"
+                },
+                {
+                    "translate": "dimension.overworld",
+                    "fallback": "Overworld"
+                }
+            ],
+            "width": 75,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger change_dimensions set 1000"
+            }
+        },
+        {
+            "label": [
+                {
+                    "sprite": "minecraft:block/netherrack"
+                },
+                {
+                    "translate": "dimension.the_nether",
+                    "fallback": "The Nether"
+                }
+            ],
+            "width": 75,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger change_dimensions set 1001"
+            }
+        },
+        {
+            "label": [
+                {
+                    "sprite": "minecraft:block/end_stone"
+                },
+                {
+                    "translate": "dimension.the_end",
+                    "fallback": "The End"
+                }
+            ],
+            "width": 75,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger change_dimensions set 1002"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "gui.back"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "description.change_dimensions": "切换维度在游戏开始后2分钟时开放，但到8分钟时关闭。",
+    "dimension.overworld": "主世界",
+    "dimension.the_end": "末地",
+    "dimension.the_nether": "下界",
+    "title.change_dimensions": "切换维度"
+}
