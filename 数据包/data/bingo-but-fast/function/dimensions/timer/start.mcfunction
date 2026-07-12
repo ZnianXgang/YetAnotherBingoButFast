@@ -1,1 +1,0 @@
-scoreboard players set #i can_change_dimension 1
