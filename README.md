@@ -15,9 +15,9 @@
 
 - `./config/yet-another-minecraft-bingo/config.json`：其中的 `countdownDelayTicks` **必须**修改为 `140`，`isLobbyMode` **必须**修改为 `true`；`syncStats` **推荐**设置为 `false`；其余按需修改。
 
-### 修改初始维度
+### 维度
 
-数据包默认以主世界为初始维度，若需要更改其他维度为初始维度，请自行修改数据包。
+数据包默认以主世界为初始维度，若需要更改其他维度为初始维度，或增加其他自定义维度，请自行修改数据包。
 
 ## English (Translated using AI)
 
@@ -34,6 +34,6 @@ Current versions used: Minecraft 26.2 & Yet Another Bingo 2.12.1
 
 - `./config/yet-another-minecraft-bingo/config.json`: The `countdownDelayTicks` **must** be changed to `140`, `isLobbyMode` **must** be changed to `true`; `syncStats` is **recommended** to be set to `false`; modify other options as needed.
 
-### Modifying the Initial Dimension
+### Dimensions
 
-By default, the data pack uses the Overworld as the initial dimension. If you need to change the initial dimension to other dimensions, please modify the data pack by your own.
+By default, the data pack uses the Overworld as the initial dimension. If you need to change the initial dimension to other dimensions, or add other custom dimensions, please modify the data pack by your own.
